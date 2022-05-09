@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.button-group{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 75%;
+}
+.notif{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.gauche{
+    width: 75%;
+    height: 100%;
+}
+button{
+    width: 30vh;
+    height: 5vh;
+}
+#box{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: 2px;
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 25%;
+    height: 100%;
+}

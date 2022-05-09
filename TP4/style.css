@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('snow.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.compte{
+    display: flex;
+    flex-direction: row;
+}
+.countdown{
+    margin-right: 5vh;
+    font-size: 2rem;
+    margin-left: 5vh;
+}
+h1{
+    font-size: 3rem;
+}
+small{
+    font-weight: 400;
+}
